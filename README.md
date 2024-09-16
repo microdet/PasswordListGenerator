@@ -1,5 +1,6 @@
 #PasswordListGenerator
-This code is for study purposes. It demonstrates how to create a .txt file containing passwords according to a specified pattern.
+This code is for study purposes. 
+It demonstrates how to create a .txt file containing passwords according to a specified pattern.
 
 #Features
 Generate passwords using predefined character sets.
