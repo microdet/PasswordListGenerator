@@ -24,7 +24,7 @@ def split_my_file(sourcefile, outputfilepath, max_size):
                 outfile.close()
 
 
-sourcefilepath = r"C:\Users\worka\PycharmProjects\genereatePasswordList\noinevek-8digit.txt"  # sourcefile
-outputfilebase = r"C:\Users\worka\PycharmProjects\genereatePasswordList\noinevek-8digit"  # path to output files
+sourcefilepath = r"C:\genereatePasswordList\noinevek-8digit.txt"  # sourcefile
+outputfilebase = r"C:\genereatePasswordList\noinevek-8digit"  # path to output files
 max_size = 20 * 1024 * 1024  # max filesize in MB in this example it splits up to 20 MB files.
 split_my_file(sourcefilepath, outputfilebase, max_size)
