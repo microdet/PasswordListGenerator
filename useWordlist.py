@@ -17,7 +17,7 @@ def read_and_process_names(file_path):
 
 
 def test_my_wordlist():
-    file_path = r"C:\Users\worka\PycharmProjects\genereatePasswordList\wordlists\nnevek.txt"
+    file_path = r"C:\genereatePasswordList\wordlists\nnevek.txt"
     processed_names = read_and_process_names(file_path)
     return processed_names
 
